@@ -1,9 +1,10 @@
 pages:
   image: ruby:2.7
   script:
-    - echo "haha yes such build"
+    - mkdir public
+    - cp * public/
   only:
     - master
   artifacts:
     paths:
-    - .
+    - public
