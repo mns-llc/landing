@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Machines Never Sleep, LLC</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel='icon' type='image/x-icon' href='favicon.jpg'>
+		<link rel='stylesheet' type='text/css' href='./css/skeleton.css'>
+		<link rel='stylesheet' type='text/css' href='./css/glitch.css'>
+	</head>
+	<body>
+		<div class='container'>
+			<h1 data-text='Machines Never Sleep, LLC' class='glitch'><b>Machines Never Sleep, LLC</b></h1>
+
+			<h2>About Us</h2>
+
+			<p>Founded in New York in 2018, we are a small cybersecurity research group. One of the subjects that we focus on and often return to is security visibility and accessibility. It does us no good to build some cool security things that people will never use. Making high quality, zero-touch security a reality is the pipe dream we chase the most. To accomplish that, we've assembled a small and diverse team who have experience building scalable, reliable software to solve contemporary security problems.</p>
+
+			<p>A lot of our recent research has involved interaction with external companies, mostly in the form of vulnerability disclosure. If you're one of them, hi! We hope you're doing well. Thank you for checking out our homepage.</p>
+
+			<p>We follow the cowboy rules: be rootin', be tootin', and by God be shootin', but most of all, be kind.</p>
+
+            <br>
+
+			<h2>Research In Progress</h2>
+
+            <p>There's more we're working on privately, but these are projects you or your company may see us working on if an unusual request (or requests) hit an origin server of yours. Don't want any(!) of our research to touch your servers? Send Chris an <a href=mailto:chris@mns.llc>email</a> with IPs or domains you don't want us to make requests to, and sufficient evidence to show your ownership of those resources. We'll add them to a global disallow list which will prevent all of our systems from interacting with your resources - you can IP ban us as well if you like, though we use a handful of cloud providers according to need so our source IPs may change over time.</p>
+
+			<h3>.git Exposure</h3>
+			<p>Continuing on research from <a href="https://en.internetwache.org/dont-publicly-expose-git-or-how-we-downloaded-your-websites-sourcecode-an-analysis-of-alexas-1m-28-07-2015/">Internetwache.org</a>, git is increasingly popular compared to competing version management systems, and from both passive and active scanning we have found many websites which exposed sensitive source materials through this easy-to-miss issue. We're currently working on enhancing our detection and triage capabilities, leading up to building an automated scan and response platform which will continually monitor the internet. Our source IP for testing is <b>193.56.28.118</b> and only validates metadata about exposed .git folders, it will not download or process sensitive code, data, etc.</p>
+
+			<h3>Serverless Technology Abuse Cases</h3>
+			<p>We're doing some vulnerability research into serverless technology using the domain <b>cfx.best</b>, give us an <a href=mailto:chris@mns.llc>email</a> if you are a SaaS/cloud provider and have noticed anything odd to or from that domain. Actions affiliated with that research are associated with a HackerOne email as well, so if you prefer to reach out over that, by all means.</p>
+			
+			<h3>Public ElasticSearch (In)Security</h3>
+			<p>ElasticSearch is easy to set up without security - the FOSS version, as of writing, does not mandate authentication or other access controls. As we've been seeing over the past few months, exposed Elastic instances are happening in bulk. We're going to see if we can scan the internet for open data stores, use a little NLP magic to understand the severity of the data exposed, and automatically triage for human intervention.</p>
+
+			<h3>"Threatwork" - Global Domain Data Aggregation & Threat Intelligence</h3>
+			<p>Visualization and enrichment for DNS nerds. Formerly a collegiate project and a conference subject, and the reason this company was founded. Our first project to exceed "billions" of data points, and all the scaling pain that comes with that.</p>
+
+			<br>
+
+		</div>
+	</body>
+</html>
+
