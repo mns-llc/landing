@@ -1,8 +1,7 @@
 pages:
   image: ruby:2.7
   script:
-    - mkdir public
-    - cp * public/
+    - echo "wow such build"
   only:
     - master
   artifacts:
